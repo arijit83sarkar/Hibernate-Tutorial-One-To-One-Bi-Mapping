@@ -20,7 +20,7 @@ public class OneToOneDeleteDemo {
             session.beginTransaction();
 
             // GET INSTRUCTOR
-            int id = 2;
+            int id = 4;
             Instructor instructor = session.get(Instructor.class, id);
             System.out.println("Found Instructor :: " + instructor);
 
